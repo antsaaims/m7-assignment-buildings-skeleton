@@ -29,7 +29,7 @@ public int getWidth(){
 public int  getLotLength(){
     return this.mLotLength;
     }
-public int intgetLotWidth(){
+public int getLotWidth(){
 
     return this.mLotWidth;
     }

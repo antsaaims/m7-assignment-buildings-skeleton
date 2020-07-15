@@ -13,23 +13,74 @@ private Boolean mPool;
 public House(int length,int width,int lotLength,int lotWidth)//constructor
         {
             super(length, width, lotLength, lotWidth);
-            this.mOwner="n/a";
+            this.mOwner=null;
             this.mPool=false;
 
         }
-public House(int length,int width,int lotLength,int lotWidth,String owner)//constructor
+public House(int length,int width,int lotLength,int lotWidth, String owner)//constructor
         {
             this(length, width, lotLength, lotWidth);
             this.mOwner=owner;
 
         }
 
-public House(intlength,intwidth,intlotLength,intlotWidth,Stringowner,boolean
+public House(int length,int width,int lotLength,int lotWidth,String owner,boolean
             pool)//constructor
-+getOwner():String
-+hasPool():boolean
-+setOwner(String):void
-+setPool(boolean):void
+    {
+        this(length, width, lotLength, lotWidth, owner);
+        this.mPool=false;
+
+    }
+public String getOwner(){
+     return this.mOwner;
+
+
+    }
+public boolean hasPool(){
+     return this.mPool;
+   }
+
+
+public void setOwner(String owner) {
+    this.mOwner= owner;
+
+    }
+public void setPool(boolean pool){
+
+    this.mPool= pool;
+
+     }
+ public String  toString(){
+     String l="Owner: ";
+     if (this.mOwner==null)
+         {
+             l+="n/a";
+         }
+     else{l+= (String) this.mOwner;}
+     if (this.mPool==true){
+         l+="; has a pool";
+
+          }
+     if (this.calcLotArea()-2*this.calcBuildingArea()>0)
+           {
+           l+="; has a big open space";
+           }
+    return l;
+       }
+
+
+ public boolean  equals(Object other){
+     if (other instanceof House){
+        if (this.mPool==((House) other).mPool & this.calcBuildingArea()==((House) other).calcBuildingArea())
+        {
+            return true;
+
+        }
+
+     }
+
+     return false;
+    }
 
 
 

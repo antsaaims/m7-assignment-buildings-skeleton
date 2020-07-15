@@ -6,35 +6,35 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml
+8-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="22" />
-9-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml
+9-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:5:5-18:19
+11-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:5:5-18:19
 12        android:allowBackup="true"
-12-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:6:9-35
+12-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:6:9-35
 13        android:debuggable="true"
 14        android:icon="@mipmap/ic_launcher"
-14-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:7:9-43
+14-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:7:9-43
 15        android:label="@string/app_name"
-15-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:8:9-41
+15-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:8:9-41
 16        android:supportsRtl="true"
-16-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:9:9-35
+16-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:9:9-35
 17        android:theme="@style/AppTheme" >
-17-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:10:9-40
+17-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:10:9-40
 18        <activity android:name="mooc.vandy.java4android.buildings.ui.MainActivity" >
-18-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:11:9-17:20
-18-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:11:19-50
+18-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:11:9-17:20
+18-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:11:19-50
 19            <intent-filter>
-19-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:12:13-16:29
+19-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:12:13-16:29
 20                <action android:name="android.intent.action.MAIN" />
-20-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:13:17-69
-20-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:13:25-66
+20-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:13:17-69
+20-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:13:25-66
 21
 22                <category android:name="android.intent.category.LAUNCHER" />
-22-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:15:17-77
-22-->/home/prudence/Documents/ANtsa/3-0yZjj3Ry6tMmY49_curA_53ebeebf0cd1481ea8814d37aa54183d_m7-assignment-buildings-skeleton/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:15:27-74
+22-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:15:17-77
+22-->/var/autofs/misc/home/antsa/AndroidStudioProjects/m7-assignment-buildings-skeleton/app/src/main/AndroidManifest.xml:15:27-74
 23            </intent-filter>
 24        </activity>
 25    </application>
